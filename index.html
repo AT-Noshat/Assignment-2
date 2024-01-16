@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Assignment-2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/0b22b49e66.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="nav-bar">
-      <nav>
+      <nav class="nav">
         <div class="website-nametitle">
           <img id="page-logo" src="Images/Group 40071 (2).png" alt="" />
           <h1 id="page-title">
@@ -22,7 +23,8 @@
           </h1>
         </div>
         <div class="nav-btns"  id="navBtns">
-            <div class="menu-btn" onclick="toggleMenu()">Menu</div>
+            <div class="menu-btn" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i> </div>
             <div class="menu-links">
           
            <h5 id="Home"><a href="">Home</a></h5>
@@ -33,6 +35,20 @@
         
         </div>
       </nav>
+
+      <section class="opening-banner">
+        <div class="o-b-texts">
+            <h1 class="o-b-headline">Explore Your Travel</h1>
+            <P class="o-b-des">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. <br> In et odio enim ac quis sapien urna eu phasellus.</P>
+
+        </div>
+        <div class="o-b-btns">
+            <h4 class="o-b-inputfields"><input type="text" placeholder="where go">   </h4>
+            <h4 class="o-b-inputfields"><input type="text" placeholder="when"><select class="dropdown-list"></select></h4>
+            <h4 class="o-b-inputfields"><input type="text" placeholder="Select type"><select class="dropdown-list"></select></h4>
+            <h4 class="o-b-button"><button type="submit"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button></h4>
+        </div>
+      </section>
     </header>
   </body>
 </html>
