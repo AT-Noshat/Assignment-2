@@ -1,0 +1,109 @@
+body {
+    margin-left: 135px;
+    margin-right: 127px;
+}
+#page-logo {
+    width: 48px;
+height: 56.008px;
+margin-top: 30px;
+margin-right: 20px;
+
+}
+
+#page-title {
+    color: #131318;
+
+font-family: Mulish;
+font-size: 36px;
+
+font-weight: 800;
+
+}
+.website-nametitle {
+    display: flex;
+}
+.nav-btns{
+    display: flex;
+    gap: 44px;
+    margin-top: 30px;
+    color: #424247;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+
+}
+.menu-links {
+    display: flex;
+    gap: 44px;
+    
+    color: #424247;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+}
+
+.nav-btns a {
+    
+    color: #424247;
+    text-decoration: none;
+}
+
+.nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+}
+.orange-part, #Home a {
+    color: #FF5400;
+}
+.menu-btn {
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .nav-btns {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .menu-btn {
+        display: block;
+        cursor: pointer;
+      }
+    
+      .menu-links {
+        display: none;
+        flex-direction: column;
+      }
+    
+      .menu-links.show {
+        display: flex;
+      }
+
+    .menu-btn {
+        display: flex;
+    }
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #page-logo {
+        width: 28.724px;
+        height: 33.516px;
+    
+    }
+
+
+    #page-title {
+      display: flex;
+      gap: 5px;
+      margin-top: 33px;
+      margin-left: -15px;
+    
+
+    font-size: 20px;
+    
+    font-weight: 800;
+    }
+}
